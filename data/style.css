@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow-y: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-position:center top
+  }
+  .logo {
+    text-align: center;
+    font-family: monospace;
+    animation: color-change 1s infinite;
+  }
+  #enter{
+    top:0;
+    left:0;
+    z-index:3;
+    opacity:1;
+    width:100%;
+    height:100vh;
+    cursor:pointer;
+    position:fixed;
+    text-align:center;
+    background-color:#000000;
+    transition:opacity .5s
+}
+.begin{
+  top:50%;
+  left:50%;
+  color:#FFF;
+  position:absolute;
+  font-weight: normal;
+  font-size: 20px;
+  transform:translate(-50%,-50%);font-family:"Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+}
+
+h1{ /* Members Text Font Settings */
+  font-weight:300; /* makes the text thinner */
+  line-height:1.2; /* sets height between each member */
+  font-size:22px;
+}
+#main{
+  z-index:2
+}
+
+
+.ICB-tit { /* ICB title */
+  font-size: 1rem;
+  font-family:Courier New, monospace
+}
+  
+  .text {
+    text-align: center;
+    font-family: monospace;
+    color: #E1D9D1;
+  }
+  
+  .side {
+    font-family: monospace;
+    color: #E1D9D1;
+    margin-left: 30px;
+  }
+  
+  @keyframes color-change {
+    0% { color: #8b0000; }
+    25% { color: #cc0000; }
+    50% { color: #ff0000; }
+    100% { color: #8b0000; }
+  }
+  
+  audio { display:none;}
+  
+  a {
+    text-decoration: none;
+    font-family: monospace;
+    color: #E1D9D1;
+  }
+  
+  a:hover {
+    font-family: monospace;
+    color: #808080;
+  }
+  
